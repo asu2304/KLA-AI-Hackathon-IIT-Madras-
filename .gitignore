@@ -1,0 +1,39 @@
+# --- Competition data (large; download from Kaggle) ---
+train/
+test/
+*.npy
+*.npz
+
+# --- Model weights & checkpoints ---
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+checkpoints/
+
+# --- Generated submissions ---
+submission/
+submission*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
+runs/
+wandb/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
