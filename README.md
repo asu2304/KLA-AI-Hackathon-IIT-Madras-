@@ -16,6 +16,7 @@ Our team **DeepThought** finished **11th on the leaderboard** with a score of **
 
 - **Train:** 2,400 paired images (`train/NoisyLR`, `train/GT`)
 - **Test:** 200 noisy low-res images (`test/NoisyLR`)
+- **Dataset:** [kaggle.com/datasets/asu2304/kla-ai-hackathon-dataset-iit-madras](https://www.kaggle.com/datasets/asu2304/kla-ai-hackathon-dataset-iit-madras) (private; email to request access)
 - **Submission:** a CSV with columns `id, npy_base64`, where each row is a base64-encoded `.npy` prediction.
 
 ## Approach
@@ -55,7 +56,7 @@ We started from a lightweight residual CNN baseline: 16 residual blocks with 64 
 
 ## Getting started
 
-1. **Get the data.** Download the competition data from Kaggle and place it like this:
+1. **Get the data.** Download the dataset from Kaggle: [KLA AI-Hackathon Dataset (IIT Madras)](https://www.kaggle.com/datasets/asu2304/kla-ai-hackathon-dataset-iit-madras). The dataset is private, so email the author to request access. Then place it like this:
    ```
    train/GT/*.npy
    train/NoisyLR/*.npy
